@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+body{
+	background-color: hsl(0, 0%, 95%);
+}
+p {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+a{
+	color: hsl(228, 45%, 44%); 
+	text-decoration: none;
+	background-color:  hsl(0, 0%, 95%);
+}
+h2{
+	color:hsl(0, 0%, 95%);
+	font-family: 'Big Shoulders Display', cursive;
+	font-size: 35px;
+}
+
+.union{
+     background-color: hsla(0, 0%, 100%, 0.75) ;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 70%;
+    margin: 100px auto;
+}
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    display: flex;
+    flex-direction: column ;
+    justify-content: flex-start;
+  	border-bottom-left-radius: 5px;
+  	border-top-left-radius: 5px;
+}
+.Contenedor{
+	
+	margin-left: 40px;
+	margin-right:40px;
+}
+.ContenedorImagen{
+	margin-top: 40px;
+	margin-bottom: 25px;
+}
+.ContenedorParrafo{
+	margin-top: 20px;
+	margin-bottom: 65px;
+	margin-right: 35px;
+}
+.ContenedorBoton{
+	display: flex;
+	justify-content: flex-start;
+}
+.Sedanboton{
+	width: 50%;
+	height: 20px;
+	border-radius: 25px;
+	text-align: center;
+	padding: 8px;
+	color: hsl(31, 77%, 52%);
+
+}
+.suvs {
+        
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column ;
+    justify-content: flex-start;
+}
+.SuvsBoton{
+	width: 50%;
+	height: 20px;
+	border-radius: 25px;
+	text-align: center;
+	padding: 8px;
+	color: hsl(184, 100%, 22%);
+
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    display: flex;
+    flex-direction: column ;
+    justify-content: flex-start;
+  	border-bottom-right-radius:5px;
+  	border-top-right-radius: 5px;
+}
+.LuxuryBoton{
+	width: 50%;
+	height: 20px;
+	border-radius: 25px;
+	text-align: center;
+	padding: 8px;
+	color: hsl(179, 100%, 13%);
+}
+.imagen{
+	height: 40px;
+	width: 60px;
+}
+
