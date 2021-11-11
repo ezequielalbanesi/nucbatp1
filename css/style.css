@@ -3,27 +3,38 @@
     padding: 0px;
     box-sizing: 0px;
 }
+
 body{
 	background-color: hsl(0, 0%, 95%);
 }
+
 p {
     color: hsl(0, 0%, 95%);
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     text-align: left;
 }
-a{
-	color: hsl(228, 45%, 44%); 
-	text-decoration: none;
-	background-color:  hsl(0, 0%, 95%);
-}
 h2{
 	color:hsl(0, 0%, 95%);
 	font-family: 'Big Shoulders Display', cursive;
 	font-size: 35px;
 }
-
+a{
+	color: hsl(228, 45%, 44%); 
+	text-decoration: none;
+	background-color:  hsl(0, 0%, 95%);
+}
 .union{
+     background-color: hsla(0, 0%, 100%, 0.75) ;
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    width: 85%;
+    margin: 100px auto;
+}
+
+@media (min-width: 1024px){
+	.union{
      background-color: hsla(0, 0%, 100%, 0.75) ;
     display: flex;
     flex-direction: row;
@@ -31,16 +42,27 @@ h2{
     width: 70%;
     margin: 100px auto;
 }
+}
+
 .sedans {
     background-color: hsl(31, 77%, 52%);
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     justify-content: flex-start;
-  	border-bottom-left-radius: 5px;
-  	border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+
 }
+
+@media (min-width: 1024px){
+	.sedans{
+		   height: 400px;
+}
+}
+
 .Contenedor{
-	
+	     height: 370px;
 	margin-left: 40px;
 	margin-right:40px;
 }
@@ -48,10 +70,18 @@ h2{
 	margin-top: 40px;
 	margin-bottom: 25px;
 }
+
 .ContenedorParrafo{
+	margin-top: 20px;
+	margin-bottom: 25px;
+	margin-right: 35px;
+}
+@media (min-width: 1024px){
+	.ContenedorParrafo{
 	margin-top: 20px;
 	margin-bottom: 65px;
 	margin-right: 35px;
+}
 }
 .ContenedorBoton{
 	display: flex;
@@ -64,10 +94,19 @@ h2{
 	text-align: center;
 	padding: 8px;
 	color: hsl(31, 77%, 52%);
-
+	margin-bottom: 10px;
 }
-.suvs {
-        
+
+@media (min-width: 1024px){
+	.Sedanboton{
+	width: 50%;
+	height: 20px;
+	padding: 8px;
+}
+}
+
+
+.suvs {    
     background-color: hsl(184, 100%, 22%);
     display: flex;
     flex-direction: column ;
@@ -80,17 +119,16 @@ h2{
 	text-align: center;
 	padding: 8px;
 	color: hsl(184, 100%, 22%);
-
 }
-
 .luxury{
     background-color: hsl(179, 100%, 13%);
     display: flex;
     flex-direction: column ;
     justify-content: flex-start;
-  	border-bottom-right-radius:5px;
-  	border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
+    border-top-right-radius: 5px;
 }
+
 .LuxuryBoton{
 	width: 50%;
 	height: 20px;
@@ -103,4 +141,3 @@ h2{
 	height: 40px;
 	width: 60px;
 }
-
