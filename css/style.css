@@ -35,40 +35,22 @@ a{
     margin: 100px auto;
 }
 
-@media (min-width: 1024px){
-	.union{
-     background-color: hsla(0, 0%, 100%, 0.75) ;
-    display: flex;
-    flex-direction: row;
-    height: 450px;
-    width: 65%;
-    margin: 100px auto;
-}
-.sedans{
-	height: 450px;
-}
-}
 
 .sedans {
-    background-color: hsl(31, 77%, 52%);
+	background-color: hsl(31, 77%, 52%);
 	
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
-
-
+	
+	
 }
 
-/* @media (min-width: 1024px){
-	.sedans{
-		   height: 500px;
-}
-} */
 
 .Contenedor{
-	     height: 370px;
+	height: 370px;
 	margin-left: 40px;
 	margin-right:40px;
 }
@@ -82,21 +64,8 @@ a{
 	margin-bottom: 25px;
 	margin-right: 35px;
 }
-@media (min-width: 1024px){
-	.ContenedorParrafo{
-	margin-top: 20px;
-	margin-bottom: 65px;
-	margin-right: 35px;
-}
-}
-@media (min-width: 1024px){
-	.Sedanboton{
-	width: 50%;
-	height: 20px;
-	padding: 8px;
-}
-}
 .ContenedorBoton{
+	margin-top: 85px; 
 	display: flex;
 	justify-content: flex-start;
 }
@@ -114,13 +83,13 @@ a{
 	background-color: hsl(31, 77%, 52%);
 	border: 1px solid hsl(0, 0%, 95%);
 	color: white;
-
+	
 }
 
 
 
 .suvs {    
-    background-color: hsl(184, 100%, 22%);
+	background-color: hsl(184, 100%, 22%);
     display: flex;
     flex-direction: column ;
     justify-content: flex-start;
@@ -137,10 +106,10 @@ a{
 	background-color: hsl(184, 100%, 22%);
 	border: 1px solid hsl(0, 0%, 95%);
 	color: white;
-
+	
 }
 .luxury{
-    background-color: hsl(179, 100%, 13%);
+	background-color: hsl(179, 100%, 13%);
     display: flex;
     flex-direction: column ;
     justify-content: flex-start;
@@ -161,9 +130,73 @@ a{
 	background-color:  hsl(179, 100%, 13%);
 	border: 1px solid hsl(0, 0%, 95%);
 	color: white;
-
+	
 }
 .imagen{
 	height: 40px;
 	width: 60px;
+}
+@media (min-width: 1440px){
+	.union{
+		background-color: hsla(0, 0%, 100%, 0.75) ;
+		display: flex;
+	flex-direction: row;
+	height: 450px;
+	width: 65%;
+	margin: 100px auto;
+}
+.sedans{
+	height: 450px;
+}
+.ContenedorParrafo{
+	margin-top: 20px;
+	margin-bottom: 35px;
+	margin-right: 44px;
+}
+.Sedanboton{
+	width: 50%;
+	height: 20px;
+	padding: 8px;
+}
+}
+@media only screen and (max-width: 375px) {
+	/* .Contenedor{
+		margin-right: 20px;
+		margin-left: 10px;
+	} */
+	body{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.union{
+		
+		background-color: hsl(0, 0%, 95%);
+		padding-top: 1em;
+		display: flex;
+		flex-direction: column;
+		 height: 1400px;
+		 width: 90%;
+		margin: 0 35px;
+	}
+	.sedans, .suvs ,.luxury{
+		height: 450px;
+		width: 90%;
+	}
+	.ContenedorParrafo{
+		margin-top: 40px;
+	margin-bottom: 10px;
+	margin-right: 30px;
+	
+	}
+	.ContenedorBoton{
+		margin-top: 39px;
+	}
+	.luxury{
+		border-radius: 0 0 5px 5px;
+	}
+	.sedans
+	{
+		border-radius: 5px 5px 0 0 ;
+	}
 }
